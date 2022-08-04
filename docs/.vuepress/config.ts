@@ -10,7 +10,7 @@ import dayjs from "dayjs";
 // import htmlModules from "./config/htmlModules"; // 自定义插入的html块
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
-    base: "/sillage-blog/", // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+    base: "/blog/", // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
     theme: "vdoing", // 使用npm主题包
     // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
 
@@ -30,7 +30,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
         sidebarDepth: 4, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
         logo: "/img/logo.png", // 导航栏logo
-        repo: "laorange/sillage-blog", // 导航栏右侧生成Github链接
+        repo: "AydenLii/Ayden-blog", // 导航栏右侧生成Github链接
         searchMaxSuggestions: 10, // 搜索结果显示最大数
         lastUpdated: "上次更新", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
         docsDir: "docs", // 编辑的文件夹
@@ -78,7 +78,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
         author: {
             name: "Ayden",
-            link: "https://github.com/AydenLi",
+            link: "https://github.com/AydenLii",
         },
 
         // 博主信息 (显示在首页侧边栏)
@@ -100,12 +100,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 {
                     iconClass: "icon-github",
                     title: "GitHub",
-                    link: "https://github.com/laorange",
+                    link: "https://github.com/AydenLii",
                 },
                 {
                     iconClass: "icon-gitee",
                     title: "GitHub",
-                    link: "https://gitee.com/laorange",
+                    link: "https://gitee.com/AydenLii",
                 },
             ],
         },
@@ -114,14 +114,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         footer: {
             createYear: 2021, // 博客创建年份
             copyrightInfo:
-                "<a href=\"https://github.com/laorange\">GitHub@laorange</a>", // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+                "<a href=\"https://github.com/AydenLii\">GitHub@AydenLii</a>", // 博客版权信息、备案信息等，支持a标签或换行标签</br>
         },
 
         // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
         extendFrontmatter: {
             author: {
                 name: "Ayden",
-                link: "https://github.com/AydenLi",
+                link: "https://github.com/AydenLii",
             },
         },
 

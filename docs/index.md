@@ -9,9 +9,12 @@ tagline: 雁过留痕，风过留声
 bannerBg: /img/index/home-background.png
 
 features: # 可选的
-  - title: SIAE课程资料
-    link: /siae/
-    imgUrl: /img/index/siae.png # 可选
+  - title: 个人日志
+    link: /Personal/
+    imgUrl: /img/index/Personal.png # 可选
+  - title: 课程笔记 
+    link: /Courses/
+    imgUrl: /img/index/Courses.png # 可选
   - title: 编程资料
     link: /code/
     imgUrl: /img/index/code.png # 可选
@@ -22,13 +25,9 @@ features: # 可选的
 # hideRightBar: true # 是否隐藏右侧边栏
 ---
 
-# 名称由来
-
-**Sillage** /sijaʒ/ 是一个法语单词，可译为"**由船划过水面、飞机飞过天空后留下的痕迹**"，故以“迹云”为中文名，雁过留痕，风过留声。
-
 ---
 
 # 我的联系方式
 
-- **WeChat**:  laorange6666
-- **Email**:   laorange6666@qq.com
+- **WeChat**:  AydenCerise
+- **Email**:   AydenLii@qq.com
