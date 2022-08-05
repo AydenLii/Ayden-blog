@@ -17,8 +17,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     locales: {
         "/": {
             lang: "zh-CN",
-            title: "迹云知识库",
-            description: "雁过留痕，风过留声",
+            title: "Ayden个人知识库",
+            description: "山不让尘乃成其高,海不辞盈方有其阔",
         },
     },
 
@@ -95,7 +95,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 {
                     iconClass: "icon-bilibili",
                     title: "B站",
-                    link: "https://space.bilibili.com/384113181",
+                    link: "https://space.bilibili.com/18925893",
                 },
                 {
                     iconClass: "icon-github",
@@ -105,7 +105,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 {
                     iconClass: "icon-gitee",
                     title: "GitHub",
-                    link: "https://gitee.com/AydenLii",
+                    link: "https://gitee.com/AydenLi",
                 },
             ],
         },
