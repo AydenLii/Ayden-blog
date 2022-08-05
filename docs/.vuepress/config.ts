@@ -10,7 +10,7 @@ import dayjs from "dayjs";
 // import htmlModules from "./config/htmlModules"; // 自定义插入的html块
 
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
-    base: "/Ayden-blog/", // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+    // base: "/", // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
     theme: "vdoing", // 使用npm主题包
     // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
 
