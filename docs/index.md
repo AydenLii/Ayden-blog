@@ -22,7 +22,7 @@ features: # 可选的
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed
-# simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
+# simplePostListLength: 15 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 # hideRightBar: true # 是否隐藏右侧边栏
 ---
 
@@ -30,11 +30,15 @@ features: # 可选的
 
 
 
-Hi,我是Ayden，这里是我的个人文件库
+### Hi,我是Ayden，这里是我的个人文件库
 
 ---
 
 # 我的联系方式
+
+> 本网站仅个人使用，非商业用途，产出均为个人产出/转载
+>
+> 如有侵权，请及时与我取得联系删除，谢谢
 
 - **WeChat**:  AydenCerise
 - **Email**:   AydenLi@qq.com
